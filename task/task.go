@@ -34,7 +34,6 @@ cycle:
 			}
 
 			newTaskChan <- TTask{id: uuid.New(), creationTime: currentTime, state: NEW}
-			time.Sleep(time.Millisecond * 150)
 		}
 	}
 }
